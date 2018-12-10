@@ -1,0 +1,54 @@
+body {
+    margin: 10px;
+    border: 1px solid gray;
+}
+
+label{
+    display: table-cell;
+    text-align: left;
+}
+input {
+  display: table-cell;
+}
+div.row{
+    display:table-row;
+}
+
+legend {
+    font-weight:  bold;
+
+}
+
+header, footer {
+    clear: left;
+    text-align: center;
+    margin:5px;
+    border-bottom: 1px solid black;
+}
+
+nav {
+    float: left;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    width: 4em;
+    margin: 5px;
+    border:1px solid black;
+    background: black;
+    color: white;
+}
+
+main {
+    float: left;
+    border-left: 1px solid gray; 
+    padding: 1em;
+}
